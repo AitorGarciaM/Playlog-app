@@ -3,14 +3,21 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { useTranslation } from 'react-i18next'
+import { useTheme } from "./hooks/useTheme";
 
 function App() {
   const [count, setCount] = useState(0)
     const { t } = useTranslation();
-  return (
+    const { toggleTheme } = useTheme();
+    const myColor = getComputedStyle(document.documentElement)
+        .getPropertyValue("--background")
+        .trim();
+    return (
     <>
         <p>{t("welcome")}</p>
-      <div>
+        <button style={{background: myColor}} onClick={toggleTheme}>Cambiar tema</button>
+
+        <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
