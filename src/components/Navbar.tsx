@@ -3,6 +3,7 @@ import Searchbar from './Searchbar';
 import NotificationIcon from './Icons/NotificationIcon';
 import UserIcon from './Icons/UserIcon';
 import MoonIcon from './Icons/MoonIcon';
+import Button from './Button';
 
 export default function Navbar() {
   return (
@@ -13,10 +14,16 @@ export default function Navbar() {
         <Searchbar />
 
         <div className='user-bar'>
-           <NotificationIcon width={30} height={30}/>
-           <p>user name</p>
-           <UserIcon width={40} height={40} className='user-icon'/>
-           <MoonIcon width={30} height={30} className='user-icon'/>
+          <Button classname='navButton'>
+            <NotificationIcon width={30} height={30}/>
+          </Button>
+            <p>user name</p>
+            <Button classname='navButton'>
+              <UserIcon width={40} height={40}/>
+            </Button>
+            <Button classname='navButton'>
+              <MoonIcon width={30} height={30}/>
+            </Button>
         </div>
     </nav>
   );
