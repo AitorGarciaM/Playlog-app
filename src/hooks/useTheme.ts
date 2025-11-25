@@ -25,6 +25,6 @@ export const useTheme = () => {
     const toggleTheme = () => {
         applyTheme(theme === 'dark' ? 'light' : 'dark');
     };
-
+ console.log(localStorage.getItem('theme'))
     return { theme, toggleTheme };
 };

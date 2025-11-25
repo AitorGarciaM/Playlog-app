@@ -7,7 +7,7 @@ function App() {
     return (
     <>
         <Navbar />
-        <p>{t("welcome")}</p>
+        <p className='f-primary f-md f-bold'>{t("welcome")}</p>
     </>
   )
 }
