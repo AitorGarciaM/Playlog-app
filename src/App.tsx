@@ -1,5 +1,5 @@
 
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import { useTranslation } from 'react-i18next'
 
 function App() {

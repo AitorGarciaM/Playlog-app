@@ -2,6 +2,13 @@
     position:relative;
 }
 
+.navButton {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
 .dropdown-menu {
     position: absolute;
     top: 170%;
@@ -22,7 +29,7 @@
     visibility 0.18s;
 }
 
-.dropdown-menu.show {
+.show {
     opacity: 1;
     transform: translateY(0) scale(1);
     visibility: visible;
