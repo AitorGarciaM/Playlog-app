@@ -1,9 +1,9 @@
 import PlayLogLogo from '/Playlog_logo.svg';
 import Searchbar from './Searchbar';
 import NotificationIcon from './Icons/NotificationIcon';
-import UserIcon from './Icons/UserIcon';
 import MoonIcon from './Icons/MoonIcon';
 import Button from './Button';
+import UserDropdown from './UserDropdown';
 
 export default function Navbar() {
   return (
@@ -18,9 +18,7 @@ export default function Navbar() {
             <NotificationIcon width={30} height={30}/>
           </Button>
             <p>user name</p>
-            <Button classname='navButton'>
-              <UserIcon width={40} height={40}/>
-            </Button>
+            <UserDropdown />
             <Button classname='navButton'>
               <MoonIcon width={30} height={30}/>
             </Button>

@@ -12,7 +12,7 @@ function App() {
     return (
     <>
         <Navbar />
-        <p>{t("welcome")}</p>
+        <p className='f-primary f-md f-bold'>{t("welcome")}</p>
         <button style={{background: myColor}} onClick={toggleTheme}>Cambiar tema</button>
     </>
   )
