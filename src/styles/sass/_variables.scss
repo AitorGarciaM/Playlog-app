@@ -1,0 +1,9 @@
+@use "sass:map";
+@use "./config" as cfg;
+
+:root {
+  /* Colors */
+  @each $name, $value in cfg.$colors {
+    --color-#{$name}: #{$value};
+  }
+}

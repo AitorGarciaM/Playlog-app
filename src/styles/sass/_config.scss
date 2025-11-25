@@ -1,0 +1,59 @@
+ $colors: (
+        primary: #8541AC,
+        primary-contrast: #ffffff,
+        background: #F9F6FA,
+        surface: #ffffff,
+        text: #1b1b1b,
+        muted: #6b6b6b
+);
+
+// TIPOGRAFÍA
+
+$fonts: (
+        primary: sans-serif,
+        secondary: sans-serif,
+);
+$sizes: (
+        xs: 0,
+        sm: 0,
+        md: 0,
+        lg: 0,
+        xl: 0,
+        xxl: 0
+);
+$weights: (
+        light: 300,
+        regular: 400,
+        medium: 500,
+        bold: 700
+);
+$spacing: (
+        xs: 4px,
+        sm: 8px,
+        md: 16px,
+        lg: 24px,
+        xl: 32px,
+        xxl: 48px
+);
+
+
+// RADIUS
+
+$border-radius: (
+        sm: 5px,
+        md: 8px,
+        lg: 15px,
+        xl: 30px
+);
+
+
+// PADDING
+
+$padding-base: (
+        sm: 0,
+        md: 0,
+        lg: 0,
+        xl: 0
+);
+
+

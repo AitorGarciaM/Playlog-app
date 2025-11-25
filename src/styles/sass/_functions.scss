@@ -1,0 +1,31 @@
+@use "sass:map";
+@use "./config" as cfg;
+
+@function font-family($type: 'primary') {
+  @return map.get(cfg.$fonts, $type);
+}
+
+@function font-size($size: 'md', $scale: 1) {
+  @return  map.get(cfg.$sizes, $size);
+}
+
+@function font-weight($weight: 'regular') {
+  @return map.get(cfg.$weights, $weight);
+}
+
+@function spacing($size: 'md', $multiplier: 1) {
+  @return  map.get(cfg.$spacing, $size);
+}
+
+@function padding-base($size: 'md', $multiplier: 1) {
+  @return  map.get(cfg.$padding-base, $size);
+}
+
+@function border-radius($size: 'md') {
+  @return map.get(cfg.$border-radius, $size);
+}
+
+//@function border-radius($size: 'md', $multiplier: 1) {
+//  $val: map.get(cfg.$border-radius, $size);
+//  @return $val * $multiplier;
+//}

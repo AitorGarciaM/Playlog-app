@@ -1,0 +1,9 @@
+/* src/styles/sass/_themes.scss */
+
+:root {
+  --color-background: #F9F6FA;
+}
+
+html[data-theme="dark"] {
+  --color-background: #3F3939;
+}

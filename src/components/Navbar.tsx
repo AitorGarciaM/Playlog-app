@@ -4,8 +4,10 @@ import NotificationIcon from './Icons/NotificationIcon';
 import UserIcon from './Icons/UserIcon';
 import MoonIcon from './Icons/MoonIcon';
 import Button from './Button';
+import { useTheme } from '../hooks/useTheme';
 
 export default function Navbar() {
+  const { toggleTheme } = useTheme();
   return (
     <nav className="navbar">
         <img src= {PlayLogLogo} alt="Playlog Logo" className="navbar-logo" />
@@ -14,14 +16,14 @@ export default function Navbar() {
         <Searchbar />
 
         <div className='user-bar'>
-          <Button classname='navButton'>
+          <Button className='navButton'>
             <NotificationIcon width={30} height={30}/>
           </Button>
             <p>user name</p>
-            <Button classname='navButton'>
+            <Button className='navButton'>
               <UserIcon width={40} height={40}/>
             </Button>
-            <Button classname='navButton'>
+            <Button className='navButton' onClick={toggleTheme}>
               <MoonIcon width={30} height={30}/>
             </Button>
         </div>
