@@ -2,8 +2,13 @@
 
 :root {
   --color-background: #F9F6FA;
+  --color-line: #8541AC;
+  --color-text: #000000;
 }
 
 html[data-theme="dark"] {
   --color-background: #3F3939;
+  --color-line: #3C274A;
+  --color-text: #E0E0E0;
+
 }

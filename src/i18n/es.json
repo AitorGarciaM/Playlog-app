@@ -1,3 +1,33 @@
 {
-  "welcome": "Bienvenido"
+  "welcome": "Bienvenido",
+  "sidebar": {
+    "menu": {
+      "sections": {
+        "releases": "New Releases",
+        "allGames": "All Games",
+        "platform": "Platform",
+        "genre": "Genre"
+      },
+      "releases": {
+        "whishlist":"Whishlist",
+        "myLibrary":"My library" ,
+        "friends": "Friends"
+      },
+      "platform": {
+        "pc": "PC",
+        "play": "Play Station",
+        "nintendo": "Nintendo",
+        "xbox": "Xbox",
+        "mobile": "Mobile"
+      },
+      "genre": {
+        "action": "action",
+        "fantasy": "Fantasy",
+        "puzzle": "Puzzle"
+      }
+    }
+  },
+  "home": {
+
+  }
 }
