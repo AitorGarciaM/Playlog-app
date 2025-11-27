@@ -12,12 +12,12 @@
 
 $fonts: (
         primary: sans-serif,
-        secondary: sans-serif,
+        secondary: '"Poppins", sans-serif',
 );
 $sizes: (
         xs: 0,
-        sm: 0,
-        md: 0,
+        sm: 11px,
+        md: 17px,
         lg: 0,
         xl: 0,
         xxl: 0
@@ -26,6 +26,7 @@ $weights: (
         light: 300,
         regular: 400,
         medium: 500,
+        semi-bold: 600,
         bold: 700
 );
 $spacing: (

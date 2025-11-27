@@ -1,3 +1,13 @@
+@use './functions' as f;
+
+@mixin font-size($size) {
+  font-size: f.font-size($size);
+}
+
+@mixin font-weight($weight) {
+  font-weight: f.font-weight($weight);
+}
+
 @mixin flex-center {
   display: flex;
   align-items: center;

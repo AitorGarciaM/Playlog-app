@@ -11,7 +11,7 @@ import UserDropdown from '../UserDropdown/UserDropdown';
 export default function Navbar() {
   const { toggleTheme } = useTheme();
   return (
-    <nav className="navbar">
+    <nav className={styles["navbar"]}>
         <img src= {PlayLogLogo} alt="Playlog Logo" className={styles['navbar-logo']} />
         <p className={styles['company-name']}>Playlog</p>
 
