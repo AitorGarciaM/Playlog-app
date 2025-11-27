@@ -1,0 +1,84 @@
+.game-card {
+  margin: 10px; // <-- Added margin for temporal spacing. TODO: erase or replace.
+  width: 323px;
+  height: 359px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #b9b1d4a6;
+}
+
+.game-card:hover {
+  cursor: pointer;
+  overflow: visible;
+  height: 458px;
+}
+
+.card-img {
+  width: 100%;
+  height:fit-content;
+  margin: 0;
+  padding: 0;
+}
+
+.card-img img {
+  width: auto;
+  height: auto;
+}
+
+.game-card-video {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+
+.game-info {
+  padding: 0;
+  margin: 0;
+}
+
+.game-platforms {
+  display: flex;
+  gap:10px;
+  margin: 10px;
+}
+
+.game-metar {
+  margin-left: auto;
+  width: 31px;
+  height: 25px;
+  justify-content: center;
+  text-align: center;
+  border: #95F68D 2px solid;
+  border-radius: 5px;
+  color: #95F68D;
+}
+
+.game-title {
+  margin: 10px;
+}
+
+.game-spacebar {
+  border: none;
+  height: 1px;
+  background-color: #D9D9D9;
+  margin: 10px 10px;
+}
+
+.game-genres {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+  column-gap: 50%;
+}
+
+.genres-list {
+  display: flex;
+  text-decoration: underline;
+}
+
+.game-release-date {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+  column-gap: 40%;
+}
